@@ -1,4 +1,4 @@
-<---DOCTYPE html--->
+  
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -23,7 +23,7 @@
   <u><b><i id="pp">₹100/ ₹20 off</u></b></i>
   <p>only ₹80/-</p>
       <a href="gateway.html "
-      ><button style="">download </button></a>    
+      ><button">download </button> </a>    
 </div>
 <div>
       <h2>GOURAV BUS</h2>
