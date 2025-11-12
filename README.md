@@ -19,12 +19,12 @@
 <div>
       <h2>SIMRAN BUS</h2>
    <img src="simmer.jpg" height="90px" width="210px">
-        <img src="simmrn.jpg" height="90px" width="210 px;">  
-  <u><b><i id="pp">₹100/ ₹20 off</u></b></i>
+        <img src="simmrn.jpg" height="90px" width="210px">  
+  <u><b><i> id="pp">₹100/ ₹20 off</u></b></i>
   <p>only ₹80/-</p>
-      <a href="gateway.html "
+      <a href="gateway.html"
       ><button>download </button> </a>    
-</div>
+
 <div>
       <h2>GOURAV BUS</h2>
       <p class="price"></p>
@@ -121,8 +121,7 @@
       <p class="price">₹80</p> 
   <a href="gateway.html"        
       ><button>download</button> </a>
-</div>
-<div>
+</div
 <div>
 <h2>TARUN </h2>
    <img src="tarun.jpeg" alt="Livery Photo 3" height="100px">
