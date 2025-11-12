@@ -28,10 +28,10 @@
 <div>
       <h2>GOURAV BUS</h2>
       <p class="price"></p>
-      <img  id="jk"src="gorv.jpg" alt="Livery Photo 3" height="90px" width="210px">
+      <img src="gorv.jpg" alt="Livery Photo 3" height="90px" width="210px">
        <img src="gorv2.jpg" alt="Livery Photo 3" height="90px" width="210px"> <p>₹120/-</p> 
         <a href="gateway120.html">         
-      </a><button>download</button> </a>
+      <button>download</button> </a>
 </div>   
 <div>
       <h2>P. G .S BUS</h2>  
@@ -49,7 +49,7 @@
     <br>
       <p class="price">₹80</p>
   <a href="gateway.html"        
-      </a><button>download</button> </a>
+      ><button>download</button> </a>
 </div>
 <div>
 <h2>SHIVEM BUS</h2> 
@@ -67,7 +67,7 @@
     <br>
       <p class="price">₹80</p> 
   <a href="gateway.html"        
-      </a><button>download</button> </a>
+      ><button>download</button> </a>
 </div>
 <div>
 <h2>DIWANI BUS</h2>
@@ -76,7 +76,7 @@
     <br>
       <p class="price">₹80</p>
   <a href="gateway.html"        
-      </a><button>download</button> </a>
+      ><button>download</button> </a>
 <div>
 <h2>RADHE RADHE BUS</h2>
    <img src="RADHA 1.jpg" alt="Livery Photo 3" height="100px">
@@ -84,7 +84,7 @@
     <br>
       <p class="price">₹80</p>
   <a href="gateway.html">       
-      </a><button>download</button> </a>
+      ><button>download</button> </a>
 </div>
 <div>
 <h2>METRO CITY BUS</h2>
@@ -93,7 +93,7 @@
     <br>
       <p class="price">₹80</p> 
   <a href="gateway.html"        
-      </a><button>download</button> </a>
+      ><button>download</button> </a>
 </div>
 <div>
 <h2>GANDOTRA COACH BUS</h2>
@@ -102,7 +102,7 @@
     <br>
       <p class="price">₹80</p> 
   <a href="gateway.html" >      
-      </a><button>download</button> </a>
+      <button>download</button> </a>
 </div>
 <div></div>
 <h2>GOKUL</h2>
@@ -111,7 +111,7 @@
     <br>
       <p class="price">₹80</p> 
   <a href="gateway.html"       
-      </a><button>download</button> </a>
+      ><button>download</button> </a>
 </div>
 <div>
 <h2>LAKHVINDER BUS </h2>
@@ -151,13 +151,7 @@
 
   <a href="gateway.html"><button>download</button> </a>
 </div>
-
-
-
 <!-- Add more items as needed -->
-
-  
-
   <footer>
     <p>&copy; 2025 Livery Sale jk_livery_maker and tarun_999_gamer. All rights reserved.</p>
   </footer>
