@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<---DOCTYPE html--->
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -20,8 +20,8 @@
       <h2>SIMRAN BUS</h2>
    <img src="simmer.jpg" height="90px" width="210px">
         <img src="simmrn.jpg" height="90px" width="210 px;">  
-  <u><b></i><i id="pp">₹100/ ₹20 off</u></b></i>
-  <b><p>only ₹80/-</b></p>
+  <u><b><i id="pp">₹100/ ₹20 off</u></b></i>
+  <p>only ₹80/-</p>
       <a href="gateway.html "
       ><button style="">download </button></a>    
 </div>
