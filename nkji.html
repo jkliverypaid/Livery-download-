@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Payment Confirmation</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #eef;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .confirmation {
+      background: #fff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      text-align: center;
+    }
+    .confirmation a {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: green;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .confirmation a:hover {
+      background: darkgreen;
+    }
+  </style>
+</head>
+<body>
+  <div class="confirmation">
+    <h1>✅ Payment Completed</h1>
+    <p>Your transaction was successful. You can now download your document below.</p>
+    <a href="your-document.pdf" download>📄 Download Document</a>
+  </div>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Alphabet CAPTCHA</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 100px;
+    }
+
+    .captcha-box {
+      font-size: 32px;
+      letter-spacing: 5px;
+      background-color: #f0f0f0;
+      padding: 10px 20px;
+      border: 2px dashed #333;
+      margin-bottom: 10px;
+      user-select: none;
+    }
+
+    input, button {
+      padding: 10px;
+      margin-top: 5px;
+    }
+
+    .success {
+      color: green;
+    }
+
+    .error {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="captcha-box" id="captcha"></div>
+
+  <input type="text" id="captchaInput" placeholder="Enter the CAPTCHA" />
+  <br />
+  <button onclick="validateCaptcha()">Submit</button>
+  <p id="result"></p>
+
+  <script>
+    let currentCaptcha = '';
+
+    function generateCaptcha(length = 5) {
+      const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz123456789';
+      let captcha = '';
+      for (let i = 0; i < length; i++) {
+        captcha += letters.charAt(Math.floor(Math.random() * letters.length));
+      }
+      currentCaptcha = captcha;
+      document.getElementById('captcha').innerText = captcha;
+    }
+
+    function validateCaptcha() {
+      const userInput = document.getElementById('captchaInput').value;
+      const result = document.getElementById('result');
+
+      if (userInput === currentCaptcha) {
+        result.innerText = 'Correct!';
+        result.className = 'success';
+        generateCaptcha(); // Refresh after success
+      } else {
+        result.className = 'error';
+      }
+    }
+
+    // Initial captcha generation
+    generateCaptcha();
+  </script>
+</body>
+</html>
